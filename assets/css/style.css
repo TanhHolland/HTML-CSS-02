@@ -500,6 +500,8 @@ a {
     line-height: 28px;
 }
 .blog-item .more {
+    font-size: 1.4rem;
+    font-weight: 600;
     margin-top: 12px;
     background: #ffb900;
 }
@@ -508,16 +510,26 @@ a {
 }
 /* Footer */
 .footer {
-    /* background-color: #2E2100; */
-    background-color: red;
+    background-color: #2e2100;
     padding-top: 96px;
+    padding-bottom: 28px;
 }
 .footer .wrap {
     display: flex;
 }
+.footer .help .title {
+    color: #fff;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 34px;
+}
+.footer .help .title b {
+    color: #FFB900;
+}
 .footer .help .sub {
     margin-top: 18px;
-    max-width: 267px;
+    width: 267px;
     color: #bfbcb2;
     font-size: 1.4rem;
     font-weight: 400;
@@ -528,8 +540,9 @@ a {
 }
 .footer .row {
     display: flex;
+}
+.footer .row-list {
     margin-left: 130px;
-    gap: 0 130px;
 }
 .footer .row-list .title {
     color: #fff;
@@ -539,10 +552,36 @@ a {
 .footer .row-list .seperate {
     width: 130px;
     height: 1px;
-    background: #59554B;
+    background: #59554b;
     margin-top: 14px;
 }
 .footer .row-list .list {
     margin-top: 28px;
-    
+}
+.footer .row-list .item {
+    margin-top: 12px;
+    /* min-width: 231px; */
+}
+.footer .row-list .item a {
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer .row-list .item strong {
+    color: #ffffff;
+}
+.footer .content .line {
+    margin-top: 38px;
+    width: 1170px;
+    height: 1px;
+    background-color: #59554b;
+}
+.footer .cpy {
+    margin-top: 28px;
+    color: #807d74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 26px;
 }
