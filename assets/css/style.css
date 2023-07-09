@@ -40,7 +40,7 @@ a {
 }
 /* Header */
 .header {
-    background: red;
+    background:#FFFCF4;
 }
 .navbar {
     display: flex;
@@ -79,7 +79,7 @@ a {
 .hero-wrap {
     padding-top: 64px;
     background: #FFFCF4;
-    height: calc(100vh - 46px);
+    height: 100vh;
 }
 .hero-wrap .content {
     display: flex;
