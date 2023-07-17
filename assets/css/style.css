@@ -38,12 +38,18 @@ a {
 }
 /* Header */
 .header {
-    background: #fffcf4;
+    background: #FFFCF4;
+}
+.header.fixed {
+    position: sticky;
+    top:-32px;
+    z-index: 1;
 }
 .navbar {
     display: flex;
     align-items: center;
     padding-top: 36px;
+    padding-bottom: 4px;
 }
 .navbar ul {
     display: flex;
@@ -57,6 +63,11 @@ a {
 }
 .navbar ul .action {
     font-weight: 600;
+    position: relative;
+}
+.navbar ul .action,.navbar ul a:hover {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
     position: relative;
 }
 .navbar ul .action::after {
@@ -79,7 +90,7 @@ a {
 }
 /* Hero */
 .hero-wrap {
-    padding-top: 64px;
+    padding-top: 60px;
     background: #fffcf4;
     height: 100vh;
 }
@@ -132,7 +143,7 @@ a {
 }
 .hero-info {
     margin-left: 230px;
-    margin-top: 64px;
+    margin-top: 60px;
 }
 .hero-info .title {
     color: #171100;
