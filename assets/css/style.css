@@ -92,7 +92,7 @@ a {
 .hero-wrap {
     padding-top: 60px;
     background: #fffcf4;
-    height: 100vh;
+    padding-bottom: 65px;
 }
 .hero-wrap .content {
     display: flex;
@@ -100,6 +100,9 @@ a {
 
 .hero-wrap .images {
     position: relative;
+}
+.hero-wrap .images .hero-img {
+    vertical-align: bottom;
 }
 .hero-wrap .block {
     position: absolute;
