@@ -10,10 +10,9 @@ body {
 }
 /* Common */
 .content {
-    width: 1440px;
+    width: 1170px;
     max-width: calc(100% - 48px);
     margin: 0 auto;
-    padding: 0px 135px;
 }
 a {
     text-decoration: none;

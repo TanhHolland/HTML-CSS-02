@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <!-- CSS -->
         <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/responsive.css" />
         <!-- Embed CSS -->
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,14 +16,47 @@
             href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap"
             rel="stylesheet"
         />
+        <script src="https://kit.fontawesome.com/ad0862a732.js" crossorigin="anonymous"></script>
         <title>Project 2</title>
     </head>
     <body>
         <main>
             <!-- Header -->
-            <header class="header fixed ">
+            <header class="header fixed">
                 <div class="content">
-                    <div class="navbar ">
+                    <div class="navbar">
+                        <!-- Tablet / Mobile -->
+                        <label for="menu-checkbox" class="menu-mobile">
+                            <i class="fa-solid fa-bars"></i>
+                        </label>
+                        <!-- Logo -->
+                        <a href="#!" class="logo"
+                            ><img src="./assets/img/logo.svg" alt="Logo"
+                        /></a>
+                        <!-- Navbar -->
+                        <nav>
+                            <ul>
+                                <li><a href="#!" class="action">Home</a></li>
+                                <li><a href="#!">Courses</a></li>
+                                <li><a href="#!">Pricing</a></li>
+                                <li><a href="#!">Reviews</a></li>
+                            </ul>
+                        </nav>
+                        <a href="#!" class="btn sig">Sign Up</a>
+                    </div>
+                </div>
+            </header>
+            <!-- Header mobile/tablet -->
+            <header class="header-mobile">
+                <input
+                    type="checkbox"
+                    id="menu-checkbox"
+                    class="menu-checkbox"
+                    hidden
+                />
+                <label class="overlay" for="menu-checkbox"></label>
+                <div class="menu-drawer">
+                    <div class="menu-list">
                         <!-- Logo -->
                         <a href="#!"
                             ><img src="./assets/img/logo.svg" alt="Logo"
@@ -478,7 +512,7 @@
                                 <div class="title">Company</div>
                                 <div class="seperate"></div>
                                 <ul class="list">
-                                    <li class="item"> 
+                                    <li class="item">
                                         <a href="#!">About Us</a>
                                     </li>
                                     <li class="item">
@@ -515,20 +549,32 @@
                                 <div class="seperate"></div>
                                 <ul class="list">
                                     <li class="item">
-                                        <a href="#!"><strong>Location:</strong> 27 Division St, New York,<br> NY 10002, USA</a>
+                                        <a href="#!"
+                                            ><strong>Location:</strong> 27
+                                            Division St, New York,<br />
+                                            NY 10002, USA</a
+                                        >
                                     </li>
                                     <li class="item">
-                                        <a href="#!"><strong>Email:</strong> email@gmail.com</a>
+                                        <a href="#!"
+                                            ><strong>Email:</strong>
+                                            email@gmail.com</a
+                                        >
                                     </li>
                                     <li class="item">
-                                        <a href="#!"><strong>Phone:</strong> + 000 1234 567 890</a>
+                                        <a href="#!"
+                                            ><strong>Phone:</strong> + 000 1234
+                                            567 890</a
+                                        >
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="line"></div>
-                    <p class="cpy">Copyright ©2022 webdesign.gdn All rights reserved</p>
+                    <p class="cpy">
+                        Copyright ©2022 webdesign.gdn All rights reserved
+                    </p>
                 </div>
             </div>
         </main>
