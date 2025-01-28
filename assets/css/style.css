@@ -242,8 +242,10 @@ a {
     top: 42px;
     right: 135px;
 }
-.feature-list {
+.feature-slider {
     margin-top: 55px;
+}
+.feature-list { 
     display: flex;
     gap: 0 30px;
 }
@@ -404,9 +406,6 @@ a {
 }
 .benefits-2 .body {
     display: flex;
-}
-.benefits-2 .info {
-    width: 50%;
 }
 .benefits-2 .title {
     margin-top: 71px;
